@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for sample-react-router-quiet-log-9041 on 2025-11-13T10:56:39-08:00
+# fly.toml app configuration file generated for sample-react-router-puhyzw on 2026-01-08T18:44:10Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'sample-react-router-quiet-log-9041'
+app = 'sample-react-router-puhyzw'
 primary_region = 'sjc'
 
 [build]
@@ -20,3 +20,4 @@ primary_region = 'sjc'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
+  memory_mb = 1024
